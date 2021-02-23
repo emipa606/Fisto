@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Fisto - Fully Integrated Security Technotronic Officer Mod</name>
+  <author>Mistor Love</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>
+		Adds a special protectron named Fisto to the game.
+	</description>
+</ModMetaData>

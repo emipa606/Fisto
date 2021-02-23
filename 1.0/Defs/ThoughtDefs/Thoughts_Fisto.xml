@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>SomeDefName</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Numb</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Had strange lovin'</label>
+        <description>The Protectron gave me strange lovin' and I hate to say it was actually enjoyable.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
