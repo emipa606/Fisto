@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <HediffDef Name="addedPartFisto" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(17, 180, 212)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronLeg</defName>
+    <label>enhanced Protectron leg</label>
+    <description>enhanced Protectron leg</description>
+    <spawnThingOnRemoved>EnhancedProtectronLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronEye</defName>
+    <label>enhanced Protectron sight sensor</label>
+    <description>enhanced Protectron sight sensor</description>
+    <spawnThingOnRemoved>EnhancedProtectronEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronEar</defName>
+    <label>enhanced Protectron hearing sensor</label>
+    <description>enhanced Protectron hearing sensor</description>
+    <spawnThingOnRemoved>EnhancedProtectronEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronReactor</defName>
+    <label>enhanced Protectron reactor</label>
+    <description>enhanced Protectron reactor</description>
+    <spawnThingOnRemoved>EnhancedProtectronReactor</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronFluidReprocessor</defName>
+    <label>enhanced Protectron fluid reprocessor</label>
+    <description>enhanced Protectron fluid reprocessor</description>
+    <spawnThingOnRemoved>EnhancedProtectronFluidReprocessor</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronArm</defName>
+    <label>enhanced Protectron arm</label>
+    <description>enhanced Protectron arm</description>
+    <spawnThingOnRemoved>EnhancedProtectronArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="addedPartFisto">
+    <defName>EnhancedProtectronDrill</defName>
+    <label>enhanced Protectron drill</label>
+    <description>enhanced Protectron drill</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>drill</label>
+            <capacities>
+              <li>Cut</li>
+              <li>Stab</li>
+            </capacities>
+            <power>60</power>
+            <cooldownTime>0.65</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>EnhancedProtectronDrill</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

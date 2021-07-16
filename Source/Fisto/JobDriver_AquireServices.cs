@@ -20,8 +20,7 @@ namespace Fisto
             {
                 var defName = "Numb";
                 var named = DefDatabase<HediffDef>.GetNamed(defName, false);
-                var flag = named != null;
-                if (flag)
+                if (named != null)
                 {
                     pawn.health.AddHediff(named);
                 }

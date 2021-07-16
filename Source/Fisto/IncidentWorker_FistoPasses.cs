@@ -20,9 +20,8 @@ namespace Fisto
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
             var map = (Map) parms.target;
-            var flag = !TryFindEntryCell(map, out var intVec);
             bool result;
-            if (flag)
+            if (!TryFindEntryCell(map, out var intVec))
             {
                 result = false;
             }
@@ -34,9 +33,8 @@ namespace Fisto
                 var num3 = Rand.RangeInclusive(2, 4);
                 num2 = Mathf.Clamp(num2, 1, num3);
                 var num4 = Rand.RangeInclusive(90000, 150000);
-                var flag2 = !RCellFinder.TryFindRandomCellOutsideColonyNearTheCenterOfTheMap(intVec, map, 10f,
-                    out var invalid);
-                if (flag2)
+                if (!RCellFinder.TryFindRandomCellOutsideColonyNearTheCenterOfTheMap(intVec, map, 10f,
+                    out var invalid))
                 {
                     invalid = IntVec3.Invalid;
                 }
