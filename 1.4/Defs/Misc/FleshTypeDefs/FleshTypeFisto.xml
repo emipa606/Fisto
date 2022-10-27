@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleshTypeDef>
+    <defName>Protectron</defName>
+    <corpseCategory>CorpsesMechanoid</corpseCategory>
+    <genericWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/prowounda</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/prowoundb</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/prowoundc</texture>
+      </li>
+    </genericWounds>
+  </FleshTypeDef>
+</Defs>

@@ -1,13 +1,10 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 
-namespace Fisto
+namespace Fisto;
+
+[DefOf]
+public static class JobDefOf
 {
-    // Token: 0x02000002 RID: 2
-    [DefOf]
-    public static class JobDefOf
-    {
-        // Token: 0x04000001 RID: 1
-        public static JobDef AquireServices;
-    }
+    public static JobDef AquireServices;
 }

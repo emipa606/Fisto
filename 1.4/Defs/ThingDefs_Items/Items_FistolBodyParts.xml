@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="BodyPartFistoBase" Abstract="True">
+    <label>body part</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <thingCategories>
+      <li>BodyPartFistoEnchanced</li>
+    </thingCategories>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>BodyPartFistoEnchanced</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>10</pathCost>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronDrill</defName>
+    <label>Enhanced Protectron Drill</label>
+    <description>The more enhanced version of the Protectron drill</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>850</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronLeg</defName>
+    <label>Enhanced Protectron Leg</label>
+    <description>The more enhanced version of the Protectron leg</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronArm</defName>
+    <label>Enhanced Protectron Arm</label>
+    <description>The more enhanced version of the Protectron arm</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronEye</defName>
+    <label>Enhanced Protectron Sight Sensor</label>
+    <description>The more enhanced version of the Protectron sight sensor</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>650</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronEar</defName>
+    <label>Enhanced Protectron Hearing Sensor</label>
+    <description>The more enhanced version of the Protectron hearing sensor</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>850</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronReactor</defName>
+    <label>Enhanced Protectron Reactor</label>
+    <description>The more enhanced version of the Protectron reactor</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>1050</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartFistoBase">
+    <defName>EnhancedProtectronFluidReprocessor</defName>
+    <label>Enhanced Protectron Fluid Reprocessor</label>
+    <description>The more enhanced version of the Protectron fluid reprocessor</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/FistoBodyPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <statBases>
+      <MarketValue>950</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

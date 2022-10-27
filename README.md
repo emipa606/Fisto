@@ -1,20 +1,20 @@
 # Fisto
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Mistor Loves mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1882413457
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 [IMG]https://i.imgur.com/0zHYEcW.png[/IMG]
 
 The Fully Integrated Security Technotronic Officer Mod or Fisto for short, Adds a special Protectron to the game which you may recognize from Fallout NV. This Protectron is found by a random event which then you can train your very own Protectron. The Protectron as seen in the name can protect your colony and is proficient in hand to hand combat as long as you keep the Protectron fed with plant matter e.g Grass or hay. The Protectron being a robot does not require sleep and will keep an eye on your colony all day and night.
 
-ᴼʰ ᵃⁿᵈ ᶦᵗ ᵃˡˢᵒ ʰᵃˢ ᵗʰᵃᵗ ˢᵉᶜᵒⁿᵈᵃʳʸ ᶠᵘⁿᶜᵗᶦᵒⁿ ᵗʰᵃᵗ ʷᵉ ᵈᵒⁿ&apos;ᵗ ᵗᵃˡᵏ ᵃᵇᵒᵘᵗ, ˡᵉᵗˢ ᵏᵉᵉᵖ ᶦᵗ ᶠᵃᵐᶦˡʸ ᶠʳᶦᵉⁿᵈˡʸ ᵖˡˢ
+ᴼʰ ᵃⁿᵈ ᶦᵗ ᵃˡˢᵒ ʰᵃˢ ᵗʰᵃᵗ ˢᵉᶜᵒⁿᵈᵃʳʸ ᶠᵘⁿᶜᵗᶦᵒⁿ ᵗʰᵃᵗ ʷᵉ ᵈᵒⁿ'ᵗ ᵗᵃˡᵏ ᵃᵇᵒᵘᵗ, ˡᵉᵗˢ ᵏᵉᵉᵖ ᶦᵗ ᶠᵃᵐᶦˡʸ ᶠʳᶦᵉⁿᵈˡʸ ᵖˡˢ
 
 [IMG]https://i.imgur.com/Z9KCsyX.png[/IMG]
 
@@ -25,7 +25,7 @@ Q: Is this save game compatible?
 A: Yes, it is indeed save game compatible.
 
 Q: Can I suggest a feature?
-A: This mod was made as a learner mod for me for C# and is more or less a meme mod. I might add a feature you ask for but odds are I wont get round to it. this isn&apos;t because I don&apos;t want to this is because for the most part I don&apos;t know how too.
+A: This mod was made as a learner mod for me for C# and is more or less a meme mod. I might add a feature you ask for but odds are I wont get round to it. this isn't because I don't want to this is because for the most part I don't know how too.
 
 Q: Why am I not getting the event?
 A: The random event is rare, about double as rare as thrumbo passing. If you are getting Impatient you can always force the event in Dev Mode.
@@ -45,7 +45,7 @@ I also would like to thank Smash Phil, KongMD, Pelador and finally Compilatron f
 
 [IMG]https://i.imgur.com/p7Fv1Z6.gif[/IMG]
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -55,6 +55,7 @@ I also would like to thank Smash Phil, KongMD, Pelador and finally Compilatron f
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
